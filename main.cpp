@@ -1,9 +1,9 @@
 #include <iostream>
+#include "input.h"
 
-namespace RPN{}
 
-int main() {
-
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+int main(int, const char **) {
+    rpn::input in;
+    in.getInput();
 }
+

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Wytse/Documents/GitHub/RPNCalculator
+# Install script for directory: C:/Users/Wytse/CLionProjects/RPNCalculator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

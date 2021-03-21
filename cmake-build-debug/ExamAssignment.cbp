@@ -8,82 +8,124 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ExamAssignment">
-				<Option output="C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/ExamAssignment.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug"/>
+				<Option output="C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/ExamAssignment.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExamAssignment"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExamAssignment"/>
+					<CompileFile command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ExamAssignment/fast">
-				<Option output="C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/ExamAssignment.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug"/>
+				<Option output="C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/ExamAssignment.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExamAssignment/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExamAssignment/fast"/>
+					<CompileFile command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/Documents/GitHub/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Wytse/CLionProjects/RPNCalculator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Wytse/Documents/GitHub/RPNCalculator/main.cpp">
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/RPNcalculator.cpp">
 			<Option target="ExamAssignment"/>
 		</Unit>
-		<Unit filename="C:/Users/Wytse/Documents/GitHub/RPNCalculator/CMakeLists.txt">
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/RPNcalculator.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/calculator.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/calculator.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/controller.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/controller.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/input.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/input.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/main.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/operation.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/operation.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/parser.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/parser.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/view.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/view.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

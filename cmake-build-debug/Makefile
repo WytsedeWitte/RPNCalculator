@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Wytse\Documents\GitHub\RPNCalculator
+CMAKE_SOURCE_DIR = C:\Users\Wytse\CLionProjects\RPNCalculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Wytse\Documents\GitHub\RPNCalculator\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Wytse\CLionProjects\RPNCalculator\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\Users\Wytse\Documents\GitHub\RPNCalculator\cmake-build-deb
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Wytse\Documents\GitHub\RPNCalculator\cmake-build-debug\CMakeFiles C:\Users\Wytse\Documents\GitHub\RPNCalculator\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Wytse\CLionProjects\RPNCalculator\cmake-build-debug\CMakeFiles C:\Users\Wytse\CLionProjects\RPNCalculator\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Wytse\Documents\GitHub\RPNCalculator\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Wytse\CLionProjects\RPNCalculator\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,114 @@ ExamAssignment/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/build
 .PHONY : ExamAssignment/fast
 
+RPNcalculator.obj: RPNcalculator.cpp.obj
+
+.PHONY : RPNcalculator.obj
+
+# target to build an object file
+RPNcalculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/RPNcalculator.cpp.obj
+.PHONY : RPNcalculator.cpp.obj
+
+RPNcalculator.i: RPNcalculator.cpp.i
+
+.PHONY : RPNcalculator.i
+
+# target to preprocess a source file
+RPNcalculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/RPNcalculator.cpp.i
+.PHONY : RPNcalculator.cpp.i
+
+RPNcalculator.s: RPNcalculator.cpp.s
+
+.PHONY : RPNcalculator.s
+
+# target to generate assembly for a file
+RPNcalculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/RPNcalculator.cpp.s
+.PHONY : RPNcalculator.cpp.s
+
+calculator.obj: calculator.cpp.obj
+
+.PHONY : calculator.obj
+
+# target to build an object file
+calculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/calculator.cpp.obj
+.PHONY : calculator.cpp.obj
+
+calculator.i: calculator.cpp.i
+
+.PHONY : calculator.i
+
+# target to preprocess a source file
+calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/calculator.cpp.i
+.PHONY : calculator.cpp.i
+
+calculator.s: calculator.cpp.s
+
+.PHONY : calculator.s
+
+# target to generate assembly for a file
+calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/calculator.cpp.s
+.PHONY : calculator.cpp.s
+
+controller.obj: controller.cpp.obj
+
+.PHONY : controller.obj
+
+# target to build an object file
+controller.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/controller.cpp.obj
+.PHONY : controller.cpp.obj
+
+controller.i: controller.cpp.i
+
+.PHONY : controller.i
+
+# target to preprocess a source file
+controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/controller.cpp.i
+.PHONY : controller.cpp.i
+
+controller.s: controller.cpp.s
+
+.PHONY : controller.s
+
+# target to generate assembly for a file
+controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/controller.cpp.s
+.PHONY : controller.cpp.s
+
+input.obj: input.cpp.obj
+
+.PHONY : input.obj
+
+# target to build an object file
+input.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/input.cpp.obj
+.PHONY : input.cpp.obj
+
+input.i: input.cpp.i
+
+.PHONY : input.i
+
+# target to preprocess a source file
+input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/input.cpp.i
+.PHONY : input.cpp.i
+
+input.s: input.cpp.s
+
+.PHONY : input.s
+
+# target to generate assembly for a file
+input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/input.cpp.s
+.PHONY : input.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -169,6 +277,87 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+operation.obj: operation.cpp.obj
+
+.PHONY : operation.obj
+
+# target to build an object file
+operation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/operation.cpp.obj
+.PHONY : operation.cpp.obj
+
+operation.i: operation.cpp.i
+
+.PHONY : operation.i
+
+# target to preprocess a source file
+operation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/operation.cpp.i
+.PHONY : operation.cpp.i
+
+operation.s: operation.cpp.s
+
+.PHONY : operation.s
+
+# target to generate assembly for a file
+operation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/operation.cpp.s
+.PHONY : operation.cpp.s
+
+parser.obj: parser.cpp.obj
+
+.PHONY : parser.obj
+
+# target to build an object file
+parser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/parser.cpp.obj
+.PHONY : parser.cpp.obj
+
+parser.i: parser.cpp.i
+
+.PHONY : parser.i
+
+# target to preprocess a source file
+parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/parser.cpp.i
+.PHONY : parser.cpp.i
+
+parser.s: parser.cpp.s
+
+.PHONY : parser.s
+
+# target to generate assembly for a file
+parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/parser.cpp.s
+.PHONY : parser.cpp.s
+
+view.obj: view.cpp.obj
+
+.PHONY : view.obj
+
+# target to build an object file
+view.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/view.cpp.obj
+.PHONY : view.cpp.obj
+
+view.i: view.cpp.i
+
+.PHONY : view.i
+
+# target to preprocess a source file
+view.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/view.cpp.i
+.PHONY : view.cpp.i
+
+view.s: view.cpp.s
+
+.PHONY : view.s
+
+# target to generate assembly for a file
+view.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/view.cpp.s
+.PHONY : view.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -178,9 +367,30 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ExamAssignment
+	@echo ... RPNcalculator.obj
+	@echo ... RPNcalculator.i
+	@echo ... RPNcalculator.s
+	@echo ... calculator.obj
+	@echo ... calculator.i
+	@echo ... calculator.s
+	@echo ... controller.obj
+	@echo ... controller.i
+	@echo ... controller.s
+	@echo ... input.obj
+	@echo ... input.i
+	@echo ... input.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... operation.obj
+	@echo ... operation.i
+	@echo ... operation.s
+	@echo ... parser.obj
+	@echo ... parser.i
+	@echo ... parser.s
+	@echo ... view.obj
+	@echo ... view.i
+	@echo ... view.s
 .PHONY : help
 
 
