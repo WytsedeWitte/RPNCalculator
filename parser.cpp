@@ -3,3 +3,8 @@
 //
 
 #include "parser.h"
+
+namespace rpn {
+
+    parser::parser() = default;
+}

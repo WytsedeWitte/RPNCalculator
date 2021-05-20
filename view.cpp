@@ -3,3 +3,7 @@
 //
 
 #include "view.h"
+
+namespace rpn{
+
+}

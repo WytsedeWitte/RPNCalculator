@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/RPNcalculator.h">
 			<Option target="ExamAssignment"/>
 		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/addition.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/addition.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/calculator.cpp">
 			<Option target="ExamAssignment"/>
 		</Unit>
@@ -117,6 +123,12 @@
 			<Option target="ExamAssignment"/>
 		</Unit>
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/parser.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/squareroot.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/squareroot.h">
 			<Option target="ExamAssignment"/>
 		</Unit>
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/view.cpp">

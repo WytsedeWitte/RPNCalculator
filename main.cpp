@@ -1,9 +1,13 @@
 #include <iostream>
-#include "input.h"
+#include "addition.h"
+#include "squareroot.h"
 
 
 int main(int, const char **) {
-    rpn::input in;
-    in.getInput();
+    rpn::addition add;
+    add.execute(3,5);
+    rpn::squareroot sqrt;
+    sqrt.execute(25);
+
 }
 

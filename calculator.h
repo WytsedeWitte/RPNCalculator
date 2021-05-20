@@ -5,10 +5,11 @@
 #ifndef EXAMASSIGNMENT_CALCULATOR_H
 #define EXAMASSIGNMENT_CALCULATOR_H
 
-
-class calculator {
-
-};
+namespace rpn {
+    class calculator {
+        calculator();
+    };
+}
 
 
 #endif //EXAMASSIGNMENT_CALCULATOR_H

@@ -3,3 +3,7 @@
 //
 
 #include "calculator.h"
+
+namespace rpn{
+    calculator::calculator() = default;
+}

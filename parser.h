@@ -5,10 +5,11 @@
 #ifndef EXAMASSIGNMENT_PARSER_H
 #define EXAMASSIGNMENT_PARSER_H
 
-
-class parser {
-
-};
+namespace rpn {
+    class parser {
+        parser();
+    };
+}
 
 
 #endif //EXAMASSIGNMENT_PARSER_H
