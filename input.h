@@ -1,7 +1,3 @@
-//
-// Created by Wytse on 25/02/2021.
-//
-
 #ifndef EXAMASSIGNMENT_INPUT_H
 #define EXAMASSIGNMENT_INPUT_H
 
@@ -12,9 +8,12 @@ namespace rpn {
     class input {
     public:
         input();
-        void getInput();
-        bool correctInput(std::string input);
+        std::string getInput();
+        static bool hasInput(bool in);
 
+        std::string text;
+    private:
+        std::string line;
     };
 }
 

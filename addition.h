@@ -9,11 +9,14 @@ namespace rpn {
         std::string getOperator() override;
         std::string getDescription() override;
         double execute(double val1, double val2) override;
+        bool isBinary() override;
 
     private:
         std::string getOp;
         std::string getDesc;
         double value;
+
+
     };
 }
 

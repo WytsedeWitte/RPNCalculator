@@ -1,9 +1,11 @@
-//
-// Created by Wytse on 21/03/2021.
-//
-
 #include "calculator.h"
 
 namespace rpn{
-    calculator::calculator() = default;
+    double calculator::execute(std::vector<std::string> expression) {
+        return 0;
+    }
+
+    std::vector <std::string> calculator::getOperationsInfo() {
+        return nullptr;
+    }
 }

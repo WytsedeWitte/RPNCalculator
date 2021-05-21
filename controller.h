@@ -1,7 +1,3 @@
-//
-// Created by Wytse on 21/03/2021.
-//
-
 #ifndef EXAMASSIGNMENT_CONTROLLER_H
 #define EXAMASSIGNMENT_CONTROLLER_H
 
@@ -13,7 +9,7 @@
 namespace rpn {
     class controller {
     public:
-        controller(rpn::calculator calc, rpn::parser pars, rpn::view view, rpn::input input);
+        controller();
         void run();
     };
 
