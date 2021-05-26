@@ -5,7 +5,7 @@ namespace rpn{
         return 0;
     }
 
-    std::vector <std::string> calculator::getOperationsInfo() {
-        return nullptr;
+    std::vector<std::string> calculator::getOperationsInfo() {
+        return std::vector<std::string>();
     }
 }

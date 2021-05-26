@@ -18,6 +18,4 @@ namespace rpn {
 
     };
 }
-
-
 #endif //EXAMASSIGNMENT_SQUAREROOT_H

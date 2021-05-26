@@ -9,7 +9,7 @@ namespace rpn{
     class RPNcalculator : public calculator{
     public:
         RPNcalculator();
-        bool addOperation(const operation& operation*);
+        bool addOperation(const operation& operation);
         bool removeOperation(const std::string& operation);
         double execute(std::vector<std::string> expression) override;
         bool supportsOperation(const std::string& operation);
@@ -17,10 +17,7 @@ namespace rpn{
         std::vector<std::string> getOperators();
 
     private:
-        std::vector<operation> operations;
+        std::vector<rpn::operation> operations;
     };
 }
-
-
-
 #endif //EXAMASSIGNMENT_RPNCALCULATOR_H

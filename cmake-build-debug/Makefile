@@ -141,33 +141,6 @@ ExamAssignment/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/build
 .PHONY : ExamAssignment/fast
 
-RPNcalculator.obj: RPNcalculator.cpp.obj
-
-.PHONY : RPNcalculator.obj
-
-# target to build an object file
-RPNcalculator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/RPNcalculator.cpp.obj
-.PHONY : RPNcalculator.cpp.obj
-
-RPNcalculator.i: RPNcalculator.cpp.i
-
-.PHONY : RPNcalculator.i
-
-# target to preprocess a source file
-RPNcalculator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/RPNcalculator.cpp.i
-.PHONY : RPNcalculator.cpp.i
-
-RPNcalculator.s: RPNcalculator.cpp.s
-
-.PHONY : RPNcalculator.s
-
-# target to generate assembly for a file
-RPNcalculator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/RPNcalculator.cpp.s
-.PHONY : RPNcalculator.cpp.s
-
 addition.obj: addition.cpp.obj
 
 .PHONY : addition.obj
@@ -420,9 +393,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ExamAssignment
-	@echo ... RPNcalculator.obj
-	@echo ... RPNcalculator.i
-	@echo ... RPNcalculator.s
 	@echo ... addition.obj
 	@echo ... addition.i
 	@echo ... addition.s

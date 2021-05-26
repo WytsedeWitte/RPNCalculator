@@ -7,6 +7,7 @@ namespace rpn {
     parser::parser() = default;
 
     bool parser::canParse(std::string expression ){
+        std::cout << expression << std::endl;
 
         return false;
     }

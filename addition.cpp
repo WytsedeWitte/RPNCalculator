@@ -5,9 +5,8 @@ namespace rpn{
     bool rpn::addition::isBinary() {
         return true;
     }
-
     std::string addition::getOperator() {
-        getOp = "This operator is an addition";
+        getOp = "+";
         return getOp;
     }
     std::string addition::getDescription() {

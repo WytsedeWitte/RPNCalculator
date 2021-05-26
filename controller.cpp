@@ -5,14 +5,13 @@
 #include "calculator.h"
 
 namespace rpn {
-    controller::controller() {
-
+    controller::controller(input& in,calculator& calc, parser& pars, view& view) {
 
     }
 
     void controller::run() {
-        rpn::input in;
-        in.getInput();
+        auto value = m_input->getInput();
+        m_parser->canParse(value);
     }
 
 

@@ -9,11 +9,11 @@ namespace rpn {
     public:
         input();
         std::string getInput();
-        static bool hasInput(bool in);
+        bool hasInput(bool in);
 
-        std::string text;
     private:
         std::string line;
+        std::string text;
     };
 }
 
