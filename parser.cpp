@@ -12,8 +12,9 @@ namespace rpn {
         return false;
     }
 
-    std::stack<std::string> parser::parse(std::string expression) {
+    std::stack<std::string> parser::parse(std::string stack) {
+        auto v_stack = stack;
 
-        return std::stack<std::string>();
+        return iets;
     }
 }

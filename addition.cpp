@@ -10,7 +10,7 @@ namespace rpn{
         return getOp;
     }
     std::string addition::getDescription() {
-        getDesc = "This is an addition";
+        getDesc = "performs addition of two operands";
         return getDesc;
     }
     double addition::execute(double val1, double val2) {

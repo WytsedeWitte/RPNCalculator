@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/RPNcalculator.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/RPNcalculator.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/addition.cpp">
 			<Option target="ExamAssignment"/>
 		</Unit>

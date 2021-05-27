@@ -3,14 +3,16 @@
 
 #include <vector>
 #include <string>
+#include <stack>
 
 namespace rpn {
     class calculator {
     public:
-        virtual double execute(std::vector<std::string> expression);
+        virtual double execute(const std::vector<std::string>& expression);
         virtual std::vector<std::string> getOperationsInfo();
 
     private:
+        std::stack<std::string> stack;
     };
 }
 

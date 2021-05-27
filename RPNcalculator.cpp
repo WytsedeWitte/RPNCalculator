@@ -3,8 +3,6 @@
 #include "RPNcalculator.h"
 
 namespace rpn{
-    RPNcalculator::RPNcalculator() = default;
-
     bool RPNcalculator::addOperation(const operation& operation) {
         if (std::find(operations.begin(), operations.end(),operation)!=operations.end()){
             std::cout << "Operation already exists in the list" << std::endl;
@@ -35,15 +33,21 @@ namespace rpn{
         }
     }
 
-    double RPNcalculator::execute(std::vector<std::string> expression) {
+    double RPNcalculator::execute(const std::vector<std::string>& expression) {
         return calculator::execute(expression);
     }
 
     std::vector<std::string> RPNcalculator::getOperationsInfo() {
-        return calculator::getOperationsInfo();
+        for (auto& element : operations) {
+            opInfo.push_back(element.getDescription());
+        }
+        return opInfo;
     }
 
     std::vector<std::string> RPNcalculator::getOperators() {
-        return std::vector<std::string>();
+        for (auto& element : operations) {
+            operators.push_back(element.getOperator());
+        }
+        return operators;
     }
 }

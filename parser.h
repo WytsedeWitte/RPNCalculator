@@ -15,7 +15,7 @@ namespace rpn {
     private:
         std::string expression;
         std::vector<std::string> supportedOps;
-        std::stack<std::string> stack;
+        std::stack<std::string> iets;
     };
 }
 

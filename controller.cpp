@@ -11,7 +11,10 @@ namespace rpn {
 
     void controller::run() {
         auto value = m_input->getInput();
-        m_parser->canParse(value);
+        //m_parser->canParse(value);
+        //m_calc->execute(expression);
+        m_view->showResult(value);
+
     }
 
 

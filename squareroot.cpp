@@ -8,11 +8,11 @@ namespace rpn{
     }
 
     std::string squareroot::getOperator() {
-        getOp = "This operator is an addition";
+        getOp = "sqrt";
         return getOp;
     }
     std::string squareroot::getDescription() {
-        getDesc = "This is an addition";
+        getDesc = "calculates the square root of the operand";
         return getDesc;
     }
     double squareroot::execute(double val1) {

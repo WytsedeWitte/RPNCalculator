@@ -1,7 +1,7 @@
 #include "calculator.h"
 
 namespace rpn{
-    double calculator::execute(std::vector<std::string> expression) {
+    double calculator::execute(const std::vector<std::string>& expression) {
         return 0;
     }
 

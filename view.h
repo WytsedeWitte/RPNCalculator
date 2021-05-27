@@ -1,11 +1,15 @@
 #ifndef EXAMASSIGNMENT_VIEW_H
 #define EXAMASSIGNMENT_VIEW_H
 
+#include <string>
+
 namespace rpn {
     class view {
     public:
-        view();
+        void showResult(std::string result);
+        void showOptions(std::string[]);
 
+    private:
 
     };
 }
