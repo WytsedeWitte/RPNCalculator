@@ -5,17 +5,10 @@
 namespace rpn {
     class squareroot : public operation {
     public:
-        std::string getOperator() override;
-        std::string getDescription() override;
-        double execute(double val1) override;
-        bool isBinary() override;
-
-    private:
-        std::string getOp;
-        std::string getDesc;
-        double value;
-
-
+        std::string getOperator() const override;
+        std::string getDescription() const override;
+        double execute(double val1) const override;
+        bool isBinary() const override;
     };
 }
 #endif //EXAMASSIGNMENT_SQUAREROOT_H

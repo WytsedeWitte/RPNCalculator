@@ -7,9 +7,8 @@ namespace rpn {
 
     class input {
     public:
-        input();
         std::string getInput();
-        bool hasInput(bool in);
+        static bool hasInput(bool in);
 
     private:
         std::string line;

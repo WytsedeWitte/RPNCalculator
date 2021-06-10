@@ -2,13 +2,13 @@
 #define EXAMASSIGNMENT_RPNCALCULATOR_H
 
 #include <vector>
+#include <memory>
 #include "operation.h"
 #include "calculator.h"
 
 namespace rpn{
     class RPNcalculator : public calculator{
     public:
-        RPNcalculator();
         bool addOperation(const operation& operation);
         bool removeOperation(const std::string& operation);
         double execute(const std::vector<std::string>& expression) override;
@@ -17,7 +17,8 @@ namespace rpn{
         std::vector<std::string> getOperators();
 
     private:
-        std::vector<rpn::operation> operations;
+        //std::unique_ptr<rpn::operation> operations;
+        std::vector<const rpn::operation*> operations;
         std::vector<std::string> opInfo;
         std::vector<std::string> operators;
     };

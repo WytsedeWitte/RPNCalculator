@@ -6,7 +6,7 @@
 namespace rpn {
     class view {
     public:
-        void showResult(std::string result);
+        void showResult(const std::string& result);
         void showOptions(std::string[]);
 
     private:

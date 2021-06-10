@@ -10,13 +10,14 @@ namespace rpn {
     class controller {
     public:
         controller(input& in,calculator& calc, parser& pars, view& view);
-        void run();
+
+        [[noreturn]] void run();
+    private:
+        std::vector<std::string> expression;
         input* m_input{};
         parser* m_parser{};
         calculator* m_calc{};
         view* m_view{};
-    private:
-        std::vector<std::string> expression;
     };
 
 }

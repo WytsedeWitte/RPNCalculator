@@ -6,16 +6,10 @@
 namespace rpn {
     class addition : public operation {
     public:
-        std::string getOperator() override;
-        std::string getDescription() override;
-        double execute(double val1, double val2) override;
-        bool isBinary() override;
-
-    private:
-        std::string getOp;
-        std::string getDesc;
-        double value;
-
+        std::string getOperator() const override;
+        std::string getDescription() const override;
+        double execute(double val1, double val2) const override;
+        bool isBinary() const override;
 
     };
 }

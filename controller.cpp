@@ -1,22 +1,18 @@
 #include "controller.h"
-#include "input.h"
-#include "view.h"
-#include "parser.h"
-#include "calculator.h"
 
 namespace rpn {
-    controller::controller(input& in,calculator& calc, parser& pars, view& view) {
-
+    controller::controller(input& in,calculator& calc, parser& pars, view& view)
+        : m_input{ &in },  m_parser{ &pars}, m_calc{ &calc},m_view{ &view}
+        {
     }
 
-    void controller::run() {
-        auto value = m_input->getInput();
-        //m_parser->canParse(value);
-        //m_calc->execute(expression);
-        m_view->showResult(value);
-
+    [[noreturn]] void controller::run() {
+        for(;;){
+            auto value = m_input->getInput();
+            m_calc->execute(expression);
+            m_parser->parse(value);
+            m_view->showResult(value);
+        }
     }
-
-
 }
 
