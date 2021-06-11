@@ -34,7 +34,38 @@ namespace rpn {
     }
 
     double RPNcalculator::execute(const std::vector<std::string> &expression) {
-        return calculator::execute(expression);
+        std::string op = expression.back();
+        const rpn::operation* operationClass = nullptr;
+
+        for(auto &op_match : operations) {
+            if(op_match->getOperator() == op) {
+                if(op_match->isBinary() && expression.size() < 3) {
+                    // Error.
+                    return 0.0;
+                }
+
+                if(!op_match->isBinary() && expression.size() > 2) {
+                    // Error
+                    return 0.0;
+                }
+                operationClass = op_match;
+                break;
+            }
+        }
+
+        if(operationClass == nullptr) {
+            // No operation found.
+            return 0.0;
+        }
+
+        double a = std::stod(expression.front());
+
+        if(operationClass->isBinary()) {
+            return operationClass->execute(a);
+        } else {
+            double b = std::stod(expression.at(1));
+            return operationClass->execute(a, b);
+        }
     }
 
     std::vector<std::string> RPNcalculator::getOperationsInfo() {

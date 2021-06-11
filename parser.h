@@ -11,11 +11,11 @@ namespace rpn {
         parser();
         explicit parser(const std::vector<std::string>& expression);
         bool canParse(const std::string& expression);
-        std::stack<std::string> parse(const std::string& expression);
+        std::vector<std::string> parse(const std::string& expression);
 
     private:
         std::vector<std::string> supportedOps;
-        std::stack<std::string> inputStack;
+        std::vector<std::string> inputStack;
     };
 }
 

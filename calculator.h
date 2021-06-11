@@ -8,7 +8,7 @@
 namespace rpn {
     class calculator {
     public:
-        virtual double execute(const std::vector<std::string>& expression);
+        virtual double execute(const std::vector<std::string>& expression) = 0;
         virtual std::vector<std::string> getOperationsInfo();
 
     private:

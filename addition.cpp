@@ -1,20 +1,16 @@
 #include <iostream>
 #include "addition.h"
 
-namespace rpn{
+namespace rpn {
+    rpn::addition::addition() {
+        this->getDesc = "performs addition of two operands";
+        this->getOp = "+";
+    }
+
     bool rpn::addition::isBinary() const {
         return true;
     }
-    std::string addition::getOperator() const {
-        std::string getOp;
-        getOp = "+";
-        return getOp;
-    }
-    std::string addition::getDescription() const {
-        std::string getDesc;
-        getDesc = "performs addition of two operands";
-        return getDesc;
-    }
+
     double addition::execute(double val1, double val2) const {
         double value;
         value = 0;
@@ -22,4 +18,5 @@ namespace rpn{
         std::cout << value << std::endl;
         return value;
     }
+
 }

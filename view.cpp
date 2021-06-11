@@ -12,13 +12,13 @@ namespace rpn {
             showOptions();
         }
         if (result.empty()) {
-            std::cout << "No input found. " << std::endl << "Type your expression:" << std::endl;
+            std::cout << "No input found. " << std::endl;
         }else{
             std::cout << "The result is: " << result << std::endl;
         }
     }
 
-    void view::showOptions(std::string *) {
+    void view::showOptions() {
 
     }
 }

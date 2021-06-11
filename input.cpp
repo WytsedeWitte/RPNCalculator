@@ -4,7 +4,7 @@
 
 namespace rpn {
     std::string input::getInput() {
-        //std::cout << "Type your expression:" << std::endl;
+        std::cout << "Type your expression:" << std::endl;
         while (getline(std::cin, line)) {
             if (line.empty()) {
                 hasInput(false);
@@ -16,6 +16,7 @@ namespace rpn {
             }
             return text;
         }
+        return text;
     }
 
     bool input::hasInput(bool in) {

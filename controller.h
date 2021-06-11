@@ -13,7 +13,6 @@ namespace rpn {
 
         [[noreturn]] void run();
     private:
-        std::vector<std::string> expression;
         input* m_input{};
         parser* m_parser{};
         calculator* m_calc{};

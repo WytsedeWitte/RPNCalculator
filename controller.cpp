@@ -8,10 +8,10 @@ namespace rpn {
 
     [[noreturn]] void controller::run() {
         for(;;){
-            auto value = m_input->getInput();
-            m_calc->execute(expression);
-            m_parser->parse(value);
-            m_view->showResult(value);
+            auto inputText = m_input->getInput();
+            auto operands = m_parser->parse(inputText);
+            double outcome = m_calc->execute(operands);
+            m_view->showResult(std::to_string(outcome));
         }
     }
 }

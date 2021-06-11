@@ -11,12 +11,12 @@ namespace rpn {
 
     class operation {
     public:
-        virtual bool isBinary() const;
+        virtual bool isBinary() const = 0;
         virtual std::string getOperator() const;
         virtual std::string getDescription() const;
-        virtual double execute(double val1, double val2) const;
-        virtual double execute(double val) const;
-    private:
+        virtual double execute(double val1, double val2) const = 0;
+        virtual double execute(double val) const = 0;
+    protected:
         std::string getOp;
         std::string getDesc;
     };

@@ -21,23 +21,30 @@ namespace rpn {
                 if(test == "+"){
                     return true;
                 }
+                if(test == "h"){
+                    return true;
+                }
+                if(test == "q"){
+                    return true;
+                }
                 return false; //when one non numeric value is found, return false//
             }
         return true;
     }
 
-    std::stack<std::string> parser::parse(const std::string &stack) {
+    std::vector<std::string> parser::parse(const std::string &stack) {
         std::istringstream iss { stack };
         std::string token;
         while (iss >> token) {
             if(canParse(token)){
                 std::cout << "Token: " << token << std::endl;
-                inputStack.push(token);
+                inputStack.push_back(token);
             }
         }
         if (!canParse(token)) {
             throw "Input is not a numeral";
             // custom error
         }
+        return inputStack;
     }
 }

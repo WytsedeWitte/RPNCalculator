@@ -17,7 +17,6 @@ namespace rpn{
         std::vector<std::string> getOperators();
 
     private:
-        //std::unique_ptr<rpn::operation> operations;
         std::vector<const rpn::operation*> operations;
         std::vector<std::string> opInfo;
         std::vector<std::string> operators;
