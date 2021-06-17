@@ -7,10 +7,11 @@ namespace rpn {
     class view {
     public:
         void showResult(const std::string& result);
+        view(std::vector<std::string>  expression);
         void showOptions();
 
     private:
-
+        std::vector<std::string> opsList;
     };
 }
 

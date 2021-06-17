@@ -8,14 +8,12 @@
 namespace rpn {
     class parser {
     public:
-        parser();
-        explicit parser(const std::vector<std::string>& expression);
+        explicit parser(std::vector<std::string>  expression);
         bool canParse(const std::string& expression);
         std::vector<std::string> parse(const std::string& expression);
 
     private:
         std::vector<std::string> supportedOps;
-        std::vector<std::string> inputStack;
     };
 }
 

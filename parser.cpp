@@ -1,44 +1,46 @@
 #include <iostream>
 #include <utility>
 #include <sstream>
+#include <algorithm>
+#include <charconv>
 #include "parser.h"
 #include "input.h"
 #include "view.h"
 #include "calculator.h"
 
 namespace rpn {
-    parser::parser() = default;
-
-    parser::parser(const std::vector<std::string> &operators) {
+    parser::parser(std::vector<std::string> operators): supportedOps(std::move(operators)) {
 
     }
 
-    bool parser::canParse(const std::string &expression) {
-        for (char i : expression)
-            if (isdigit(i) == false) {
-                std::string test;
-                test = i;
-                if(test == "+"){
-                    return true;
-                }
-                if(test == "h"){
-                    return true;
-                }
-                if(test == "q"){
-                    return true;
-                }
-                return false; //when one non numeric value is found, return false//
-            }
+    bool parser::canParse(const std::string &token) {
+        if(std::find(supportedOps.begin(), supportedOps.end(), token) != supportedOps.end()){
+            return true;
+        }
+        if (token == "h" || token == "q" || token.empty()){
+            return true;
+        }
+        try{
+            double result = std::stod(token);
+        }
+        catch (std::invalid_argument&){
+            return false;
+        }
         return true;
     }
 
     std::vector<std::string> parser::parse(const std::string &stack) {
+        std::vector<std::string> inputStack;
+
         std::istringstream iss { stack };
         std::string token;
         while (iss >> token) {
             if(canParse(token)){
-                std::cout << "Token: " << token << std::endl;
-                inputStack.push_back(token);
+                if (token == "h" || token == "q" || token.empty()){
+                    return inputStack;
+                } else{
+                    inputStack.push_back(token);
+                }
             }
         }
         if (!canParse(token)) {

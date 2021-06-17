@@ -20,4 +20,8 @@ namespace rpn{
         std::cout << value << std::endl;
         return value;
     }
+
+    double squareroot::execute(double val1, double val2) const {
+        return 0;
+    }
 }

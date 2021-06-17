@@ -4,6 +4,8 @@
 
 namespace rpn {
     std::string input::getInput() {
+        text = "";
+
         std::cout << "Type your expression:" << std::endl;
         while (getline(std::cin, line)) {
             if (line.empty()) {

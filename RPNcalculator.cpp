@@ -41,26 +41,24 @@ namespace rpn {
             if(op_match->getOperator() == op) {
                 if(op_match->isBinary() && expression.size() < 3) {
                     // Error.
-                    return 0.0;
+                    return 3.0;
                 }
 
                 if(!op_match->isBinary() && expression.size() > 2) {
                     // Error
-                    return 0.0;
+                    return 4.0;
                 }
                 operationClass = op_match;
                 break;
             }
         }
-
         if(operationClass == nullptr) {
             // No operation found.
             return 0.0;
         }
-
         double a = std::stod(expression.front());
 
-        if(operationClass->isBinary()) {
+        if(!operationClass->isBinary()) {
             return operationClass->execute(a);
         } else {
             double b = std::stod(expression.at(1));
@@ -70,12 +68,13 @@ namespace rpn {
 
     std::vector<std::string> RPNcalculator::getOperationsInfo() {
         for (auto &element : operations) {
-            opInfo.push_back(element->getDescription());
+            opInfo.push_back(element->getOperator() + " : " + element->getDescription());
         }
         return opInfo;
     }
 
     std::vector<std::string> RPNcalculator::getOperators() {
+        std::vector<std::string> operators;
         for (auto &element : operations) {
             operators.push_back(element->getOperator());
         }

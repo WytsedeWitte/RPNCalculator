@@ -1,12 +1,12 @@
-#ifndef EXAMASSIGNMENT_ADDITION_H
-#define EXAMASSIGNMENT_ADDITION_H
+#ifndef EXAMASSIGNMENT_SINUS_H
+#define EXAMASSIGNMENT_SINUS_H
 
 #include "operation.h"
 
 namespace rpn {
-    class addition : public operation {
+    class sinus : public operation {
     public:
-        addition();
+        sinus();
         std::string getOperator() const override;
         std::string getDescription() const override;
         double execute(double val1) const override;
@@ -16,4 +16,4 @@ namespace rpn {
 }
 
 
-#endif //EXAMASSIGNMENT_ADDITION_H
+#endif //EXAMASSIGNMENT_SINUS_H

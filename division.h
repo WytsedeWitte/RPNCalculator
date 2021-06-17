@@ -1,12 +1,12 @@
-#ifndef EXAMASSIGNMENT_ADDITION_H
-#define EXAMASSIGNMENT_ADDITION_H
+#ifndef EXAMASSIGNMENT_DIVISION_H
+#define EXAMASSIGNMENT_DIVISION_H
 
 #include "operation.h"
 
 namespace rpn {
-    class addition : public operation {
+    class division : public operation {
     public:
-        addition();
+        division();
         std::string getOperator() const override;
         std::string getDescription() const override;
         double execute(double val1) const override;
@@ -15,5 +15,4 @@ namespace rpn {
     };
 }
 
-
-#endif //EXAMASSIGNMENT_ADDITION_H
+#endif //EXAMASSIGNMENT_DIVISION_H

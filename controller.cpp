@@ -10,8 +10,13 @@ namespace rpn {
         for(;;){
             auto inputText = m_input->getInput();
             auto operands = m_parser->parse(inputText);
-            double outcome = m_calc->execute(operands);
-            m_view->showResult(std::to_string(outcome));
+            if (inputText == "h" || inputText == "q" || inputText.empty()){
+                m_view->showResult((inputText));
+            }else{
+                double outcome = m_calc->execute(operands);
+                m_view->showResult(std::to_string(outcome));
+            }
+
         }
     }
 }

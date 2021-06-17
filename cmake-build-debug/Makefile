@@ -249,6 +249,60 @@ controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/controller.cpp.s
 .PHONY : controller.cpp.s
 
+cosine.obj: cosine.cpp.obj
+
+.PHONY : cosine.obj
+
+# target to build an object file
+cosine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/cosine.cpp.obj
+.PHONY : cosine.cpp.obj
+
+cosine.i: cosine.cpp.i
+
+.PHONY : cosine.i
+
+# target to preprocess a source file
+cosine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/cosine.cpp.i
+.PHONY : cosine.cpp.i
+
+cosine.s: cosine.cpp.s
+
+.PHONY : cosine.s
+
+# target to generate assembly for a file
+cosine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/cosine.cpp.s
+.PHONY : cosine.cpp.s
+
+division.obj: division.cpp.obj
+
+.PHONY : division.obj
+
+# target to build an object file
+division.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/division.cpp.obj
+.PHONY : division.cpp.obj
+
+division.i: division.cpp.i
+
+.PHONY : division.i
+
+# target to preprocess a source file
+division.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/division.cpp.i
+.PHONY : division.cpp.i
+
+division.s: division.cpp.s
+
+.PHONY : division.s
+
+# target to generate assembly for a file
+division.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/division.cpp.s
+.PHONY : division.cpp.s
+
 input.obj: input.cpp.obj
 
 .PHONY : input.obj
@@ -276,6 +330,33 @@ input.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/input.cpp.s
 .PHONY : input.cpp.s
 
+logarithm.obj: logarithm.cpp.obj
+
+.PHONY : logarithm.obj
+
+# target to build an object file
+logarithm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/logarithm.cpp.obj
+.PHONY : logarithm.cpp.obj
+
+logarithm.i: logarithm.cpp.i
+
+.PHONY : logarithm.i
+
+# target to preprocess a source file
+logarithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/logarithm.cpp.i
+.PHONY : logarithm.cpp.i
+
+logarithm.s: logarithm.cpp.s
+
+.PHONY : logarithm.s
+
+# target to generate assembly for a file
+logarithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/logarithm.cpp.s
+.PHONY : logarithm.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -302,6 +383,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+multiplication.obj: multiplication.cpp.obj
+
+.PHONY : multiplication.obj
+
+# target to build an object file
+multiplication.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/multiplication.cpp.obj
+.PHONY : multiplication.cpp.obj
+
+multiplication.i: multiplication.cpp.i
+
+.PHONY : multiplication.i
+
+# target to preprocess a source file
+multiplication.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/multiplication.cpp.i
+.PHONY : multiplication.cpp.i
+
+multiplication.s: multiplication.cpp.s
+
+.PHONY : multiplication.s
+
+# target to generate assembly for a file
+multiplication.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/multiplication.cpp.s
+.PHONY : multiplication.cpp.s
 
 operation.obj: operation.cpp.obj
 
@@ -357,6 +465,33 @@ parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/parser.cpp.s
 .PHONY : parser.cpp.s
 
+sinus.obj: sinus.cpp.obj
+
+.PHONY : sinus.obj
+
+# target to build an object file
+sinus.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/sinus.cpp.obj
+.PHONY : sinus.cpp.obj
+
+sinus.i: sinus.cpp.i
+
+.PHONY : sinus.i
+
+# target to preprocess a source file
+sinus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/sinus.cpp.i
+.PHONY : sinus.cpp.i
+
+sinus.s: sinus.cpp.s
+
+.PHONY : sinus.s
+
+# target to generate assembly for a file
+sinus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/sinus.cpp.s
+.PHONY : sinus.cpp.s
+
 squareroot.obj: squareroot.cpp.obj
 
 .PHONY : squareroot.obj
@@ -383,6 +518,33 @@ squareroot.s: squareroot.cpp.s
 squareroot.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/squareroot.cpp.s
 .PHONY : squareroot.cpp.s
+
+substraction.obj: substraction.cpp.obj
+
+.PHONY : substraction.obj
+
+# target to build an object file
+substraction.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/substraction.cpp.obj
+.PHONY : substraction.cpp.obj
+
+substraction.i: substraction.cpp.i
+
+.PHONY : substraction.i
+
+# target to preprocess a source file
+substraction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/substraction.cpp.i
+.PHONY : substraction.cpp.i
+
+substraction.s: substraction.cpp.s
+
+.PHONY : substraction.s
+
+# target to generate assembly for a file
+substraction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExamAssignment.dir\build.make CMakeFiles/ExamAssignment.dir/substraction.cpp.s
+.PHONY : substraction.cpp.s
 
 view.obj: view.cpp.obj
 
@@ -432,21 +594,39 @@ help:
 	@echo ... controller.obj
 	@echo ... controller.i
 	@echo ... controller.s
+	@echo ... cosine.obj
+	@echo ... cosine.i
+	@echo ... cosine.s
+	@echo ... division.obj
+	@echo ... division.i
+	@echo ... division.s
 	@echo ... input.obj
 	@echo ... input.i
 	@echo ... input.s
+	@echo ... logarithm.obj
+	@echo ... logarithm.i
+	@echo ... logarithm.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... multiplication.obj
+	@echo ... multiplication.i
+	@echo ... multiplication.s
 	@echo ... operation.obj
 	@echo ... operation.i
 	@echo ... operation.s
 	@echo ... parser.obj
 	@echo ... parser.i
 	@echo ... parser.s
+	@echo ... sinus.obj
+	@echo ... sinus.i
+	@echo ... sinus.s
 	@echo ... squareroot.obj
 	@echo ... squareroot.i
 	@echo ... squareroot.s
+	@echo ... substraction.obj
+	@echo ... substraction.i
+	@echo ... substraction.s
 	@echo ... view.obj
 	@echo ... view.i
 	@echo ... view.s

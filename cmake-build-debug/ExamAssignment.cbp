@@ -104,13 +104,37 @@
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/controller.h">
 			<Option target="ExamAssignment"/>
 		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/cosine.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/cosine.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/division.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/division.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/input.cpp">
 			<Option target="ExamAssignment"/>
 		</Unit>
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/input.h">
 			<Option target="ExamAssignment"/>
 		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/logarithm.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/logarithm.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/main.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/multiplication.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/multiplication.h">
 			<Option target="ExamAssignment"/>
 		</Unit>
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/operation.cpp">
@@ -125,10 +149,22 @@
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/parser.h">
 			<Option target="ExamAssignment"/>
 		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/sinus.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/sinus.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/squareroot.cpp">
 			<Option target="ExamAssignment"/>
 		</Unit>
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/squareroot.h">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/substraction.cpp">
+			<Option target="ExamAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/substraction.h">
 			<Option target="ExamAssignment"/>
 		</Unit>
 		<Unit filename="C:/Users/Wytse/CLionProjects/RPNCalculator/view.cpp">
